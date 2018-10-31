@@ -65,7 +65,7 @@ class UserController extends Controller
             } else {
                 return response([
                     'status' => '400',
-                    'message' => 'شماره موبایل نامعتبر',
+                    'message' => 'شماره موبایل نامعتبر است',
                 ]);
             }
 
